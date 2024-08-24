@@ -1,5 +1,7 @@
 
 # Daily DSA Practice 🚀
+![DSA Practice]![image](https://github.com/user-attachments/assets/b1a943ba-6a7c-44bf-88cc-d9a2099c7f6a)
+
 
 Welcome to the **Daily DSA Practice** repository! This is your go-to resource for daily Data Structures and Algorithms (DSA) problem-solving practice. Whether you're preparing for coding interviews, improving your problem-solving skills, or just love solving DSA problems, this repository has something for everyone.
 
