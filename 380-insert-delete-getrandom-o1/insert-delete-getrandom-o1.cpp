@@ -1,11 +1,12 @@
 #include <vector>
 #include <unordered_map>
 #include <cstdlib> // For rand()
+using namespace std;
 
 class RandomizedSet {
 private:
-    std::vector<int> nums; // To store the elements
-    std::unordered_map<int, int> map; // To store the index of each element in nums
+    vector<int> nums; // To store the elements
+    unordered_map<int, int> map; // To store the index of each element in nums
 
 public:
     RandomizedSet() {
