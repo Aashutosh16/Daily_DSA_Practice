@@ -1,21 +1,13 @@
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        int l = 0;
-        int r = 0;
-        while( r < nums.size()) {
-            int count = 1;
-            while( r + 1 < nums.size() && nums[r] == nums[r+1]){
-                r++;
-                count++;
+        int k = 0; // write pointer
+        for (int x : nums) {
+            if (k < 2 || x > nums[k - 2]) {
+                nums[k] = x;
+                k++;
             }
-            int cnum = min(2,count);
-            for(int i=0;i<cnum;i++){
-                  nums[l] = nums[r];
-                  l++;
-            }
-            r++;
         }
-        return l;
+        return k;
     }
 };
